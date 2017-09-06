@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/phanes/development/internal/cppechoservice/untitled"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/phanes/development/internal/cppechoservice/untitled"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/phanes/development/internal/cppechoservice/untitled"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled">
+				<Option output="/home/phanes/development/internal/cppechoservice/untitled/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/phanes/development/internal/cppechoservice/untitled"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled/fast">
+				<Option output="/home/phanes/development/internal/cppechoservice/untitled/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/phanes/development/internal/cppechoservice/untitled"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/phanes/development/internal/cppechoservice/untitled/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/connection.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/connection.hpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/connection_manager.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/connection_manager.hpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/mime_types.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/mime_types.hpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/reply.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/reply.hpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/request_handler.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/request_handler.hpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/request_parser.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/request_parser.hpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/server.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/server.hpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/phanes/development/internal/cppechoservice/untitled/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
