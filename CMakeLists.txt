@@ -14,4 +14,12 @@ target_link_libraries (${PROJECT_NAME} pthread)
 target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
 
 install(TARGETS ${PROJECT_NAME} DESTINATION /usr/bin/${PROJECT_NAME})
-install(TARGETS systemd/${PROJECT_NAME} DESTINATION /etc/systemd/system/${PROJECT_NAME}.service)
+
+set(SYSTEMD_TARGET_DIR "/etc/systemd/system" CACHE PATH "Path to systemd units")
+set(SYSTEMD_SOURCE_DIR "${CMAKE_SOURCE_DIR}/systemd")
+
+configure_file(${SYSTEMD_SOURCE_DIR}/${PROJECT_NAME}.service ${PROJECT_BINARY_DIR}/systemd/${PROJECT_NAME}.service)
+
+install(FILES ${PROJECT_BINARY_DIR}/systemd/${PROJECT_NAME}.service DESTINATION ${SYSTEMD_TARGET_DIR})
+
+
