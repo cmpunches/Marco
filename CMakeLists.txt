@@ -14,3 +14,4 @@ target_link_libraries (${PROJECT_NAME} pthread)
 target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
 
 install(TARGETS ${PROJECT_NAME} DESTINATION /usr/bin/${PROJECT_NAME})
+install(TARGETS systemd/${PROJECT_NAME} DESTINATION /etc/systemd/system/${PROJECT_NAME}.service)
