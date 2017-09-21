@@ -1,4 +1,4 @@
-project(untitled)
+project(marco)
 
 SET(CMAKE_CXX_FLAGS_DEBUG "-lpthread")
 SET(CMAKE_CXX_FLAGS_RELEASE "-lpthread")
