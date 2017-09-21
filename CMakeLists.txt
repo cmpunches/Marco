@@ -5,7 +5,7 @@ SET(CMAKE_CXX_FLAGS_RELEASE "-lpthread")
 cmake_minimum_required(VERSION 2.8)
 aux_source_directory(. SRC_LIST)
 
-find_package(Boost 1.60.0 REQUIRED system)
+find_package(Boost 1.40.0 REQUIRED system)
 
 add_executable(${PROJECT_NAME} ${SRC_LIST})
 

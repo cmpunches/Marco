@@ -1,0 +1,9 @@
+Description=HTTP Echo Server
+ 
+[Service]
+ExecStart=/usr/bin/marco
+StandardOutput=null
+ 
+[Install]
+WantedBy=multi-user.target
+Alias=marco.service
